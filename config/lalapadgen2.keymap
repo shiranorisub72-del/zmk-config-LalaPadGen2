@@ -57,6 +57,26 @@
             bindings = <&kp TAB>;
             key-positions = <10 11>;
         };
+
+        zenkakuhankaku {
+            bindings = <&kp GRAVE>;
+            key-positions = <11 12>;
+        };
+
+        deletkye {
+            bindings = <&kp DELETE>;
+            key-positions = <8 7>;
+        };
+
+        CenterClick {
+            bindings = <&mkp MB3>;
+            key-positions = <16 17>;
+        };
+
+        RightClick {
+            bindings = <&mkp MB2>;
+            key-positions = <17 18>;
+        };
     };
 
     keymap {
